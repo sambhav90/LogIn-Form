@@ -1,0 +1,33 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: aqua;
+}
+
+form{
+  background-color: white;
+  padding: 0px 50px;
+  border-radius: 10px;
+}
+
+h1{
+  color: rgb(134, 15, 134);
+  text-align: center;
+}
+
+button{
+  width: 100%;
+  border: none;
+  height: 45px;
+  padding: 10px;
+  background-color: rgb(196, 35, 196);
+  color: white;
+  border-radius:30px;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}

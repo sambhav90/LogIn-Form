@@ -1,0 +1,29 @@
+.InputForm{
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+}
+
+input{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 10px 0px;
+}
+label{
+    font-size: 12px;
+    color: gray;
+}
+span{
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+input:invalid[focus='true']~ span{
+    display: block;
+}
+input:invalid[focus='true']{
+    border: 1px solid red;
+}
